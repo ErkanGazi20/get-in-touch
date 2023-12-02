@@ -73,11 +73,6 @@ p{
     font-weight: normal;
 }
 
-li{
-    line-height: 25px;
-    margin-left: 8px;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -91,44 +86,6 @@ a {
 
 .grey-links{
     color: #4B4D52;
-}
-
-.smaller-image {
-    width: 200px;
-    max-width: 100%;
-    transform: scale(1.05);
-    margin-left: 50px;
-}
-
-.thick-green-border {
-    border-color: greenyellow;
-    max-width: 100%;
-    border-width:10px;
-    border-style: solid;
-    border-radius: 39.5%;
-    margin-left: 150px;
-}
-
-.profile-pic {
-    animation-name: slide-right;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    transform: translate(20, 0);
-}
-
-@keyframes slide-right{
-    0%{
-        transform: translate(-500px, 0);
-        opacity:0.7
-    }
-    50%{
-        transform: translate(0, 0);
-        opacity: 0.85;
-    }
-    100%{
-        transform: translate(0px, 0px);
-        opacity: 1
-    }
 }
 
 .black-background {
@@ -208,4 +165,54 @@ a:hover{
     flex-wrap: wrap;
     flex-shrink: 1;
     flex-grow: 1;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color:#000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 0.5em;
 }

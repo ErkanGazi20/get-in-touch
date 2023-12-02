@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <nav class="black-background link-hover">
-        <div class="nav-inside">
+        <div class="nav-inside"><!--Nav bar-->
             <ul>
                 <div class="nav-links">
                 <li class="text-hover">
@@ -39,7 +39,29 @@
                 </li>
                 </div>
             </ul>
-        </div><!-- end inside -->
+        </div><!-- end of Nav bar-->
+    </nav>
+        <div><!--Form-->
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Enter your name" id="name" name="user_name"/>
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" placeholder="Enter your email address" id="mail" name="user_mail"/>
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" placeholder="Enter your message" name="user_message"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+        </div><!--End of form-->
     </nav>
 </body>
 </html>

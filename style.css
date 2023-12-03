@@ -132,7 +132,7 @@ a {
     flex-wrap: wrap;
     flex-shrink: 1;
     animation-name: slide-down;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease;
     transform: translate(0, -20px);
 }
@@ -213,6 +213,9 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    display:flex;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .form-links {

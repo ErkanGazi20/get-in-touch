@@ -269,8 +269,25 @@ textarea {
 
 .button {
     padding-left: 90px;
+    position: relative;
+    width: 230px;
+    height: 125px;
+    background: transparent;
+    color: #fff;
+    padding: 0;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-button {
-    margin-left: 0.5em;
+
+
+.hover-circle {
+    cursor: pointer;
+    padding-bottom: 25vw;
 }

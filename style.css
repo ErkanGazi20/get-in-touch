@@ -232,8 +232,8 @@ a:hover{
 }
 
 form {
-    margin: 0 auto;
-
+    margin: 10px auto;
+    width: 400px;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
